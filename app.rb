@@ -16,4 +16,5 @@ get "/newteam" do
     @c = params["c"]
      erb :team
   end
+  
 end
